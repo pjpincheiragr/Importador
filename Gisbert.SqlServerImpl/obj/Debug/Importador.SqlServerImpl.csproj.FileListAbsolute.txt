@@ -1,0 +1,7 @@
+C:\Users\administrador\Desktop\Beta\Importador\Gisbert.SqlServerImpl\obj\Debug\Importador.SqlServerImpl.csprojResolveAssemblyReference.cache
+C:\Users\administrador\Desktop\Beta\Importador\Gisbert.SqlServerImpl\obj\Debug\Rodial.SqlServerImpl.dll
+C:\Users\administrador\Desktop\Beta\Importador\Gisbert.SqlServerImpl\obj\Debug\Rodial.SqlServerImpl.pdb
+C:\Users\administrador\Desktop\Beta\Importador\Gisbert.SqlServerImpl\bin\Debug\Rodial.SqlServerImpl.dll
+C:\Users\administrador\Desktop\Beta\Importador\Gisbert.SqlServerImpl\bin\Debug\Rodial.SqlServerImpl.pdb
+C:\Users\administrador\Desktop\Beta\Importador\Gisbert.SqlServerImpl\bin\Debug\Eximo.dal.SqlServerLibrary.dll
+C:\Users\administrador\Desktop\Beta\Importador\Gisbert.SqlServerImpl\bin\Debug\Eximo.dal.SqlServerLibrary.pdb
