@@ -1,0 +1,7 @@
+C:\Users\administrador\Desktop\Beta\Importador\Importador\bin\Debug\Importador.exe
+C:\Users\administrador\Desktop\Beta\Importador\Importador\bin\Debug\Importador.pdb
+C:\Users\administrador\Desktop\Beta\Importador\Importador\obj\x86\Debug\Importador.Form1.resources
+C:\Users\administrador\Desktop\Beta\Importador\Importador\obj\x86\Debug\Importador.Properties.Resources.resources
+C:\Users\administrador\Desktop\Beta\Importador\Importador\obj\x86\Debug\Importador.csproj.GenerateResource.Cache
+C:\Users\administrador\Desktop\Beta\Importador\Importador\obj\x86\Debug\Importador.exe
+C:\Users\administrador\Desktop\Beta\Importador\Importador\obj\x86\Debug\Importador.pdb
