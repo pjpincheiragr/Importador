@@ -1,0 +1,4 @@
+C:\Users\administrador\Desktop\Beta\Importador\Gisbert.dal.SqlServerLibrary\bin\Debug\Eximo.dal.SqlServerLibrary.dll
+C:\Users\administrador\Desktop\Beta\Importador\Gisbert.dal.SqlServerLibrary\bin\Debug\Eximo.dal.SqlServerLibrary.pdb
+C:\Users\administrador\Desktop\Beta\Importador\Gisbert.dal.SqlServerLibrary\obj\Debug\Eximo.dal.SqlServerLibrary.dll
+C:\Users\administrador\Desktop\Beta\Importador\Gisbert.dal.SqlServerLibrary\obj\Debug\Eximo.dal.SqlServerLibrary.pdb

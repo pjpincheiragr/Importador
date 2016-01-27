@@ -1,0 +1,33 @@
+D:\Proyectos Pablo\iCarrier 2\Codigo Fuente\iCarrierII\Eximo.Log\bin\Debug\Eximo.Log.dll
+D:\Proyectos Pablo\iCarrier 2\Codigo Fuente\iCarrierII\Eximo.Log\bin\Debug\Eximo.Log.pdb
+D:\Proyectos Pablo\iCarrier 2\Codigo Fuente\iCarrierII\Eximo.Log\bin\Debug\Eximo.dal.SqlServerLibrary.dll
+D:\Proyectos Pablo\iCarrier 2\Codigo Fuente\iCarrierII\Eximo.Log\bin\Debug\iCarrierII.Services.dll
+D:\Proyectos Pablo\iCarrier 2\Codigo Fuente\iCarrierII\Eximo.Log\bin\Debug\Eximo.dal.SqlServerLibrary.pdb
+D:\Proyectos Pablo\iCarrier 2\Codigo Fuente\iCarrierII\Eximo.Log\bin\Debug\iCarrierII.Services.pdb
+D:\Proyectos Pablo\iCarrier 2\Codigo Fuente\iCarrierII\Eximo.Log\obj\Debug\ResolveAssemblyReference.cache
+D:\Proyectos Pablo\iCarrier 2\Codigo Fuente\iCarrierII\Eximo.Log\obj\Debug\Eximo.Log.dll
+D:\Proyectos Pablo\iCarrier 2\Codigo Fuente\iCarrierII\Eximo.Log\obj\Debug\Eximo.Log.pdb
+D:\Proyectos Pablo\Rodial\ParteDiario\Codigo Fuente\Rodial\Eximo.Log\bin\Debug\Eximo.Log.dll
+D:\Proyectos Pablo\Rodial\ParteDiario\Codigo Fuente\Rodial\Eximo.Log\bin\Debug\Eximo.Log.pdb
+D:\Proyectos Pablo\Rodial\ParteDiario\Codigo Fuente\Rodial\Eximo.Log\bin\Debug\Eximo.dal.SqlServerLibrary.dll
+D:\Proyectos Pablo\Rodial\ParteDiario\Codigo Fuente\Rodial\Eximo.Log\bin\Debug\NPOI.dll
+D:\Proyectos Pablo\Rodial\ParteDiario\Codigo Fuente\Rodial\Eximo.Log\bin\Debug\Rodial.Services.dll
+D:\Proyectos Pablo\Rodial\ParteDiario\Codigo Fuente\Rodial\Eximo.Log\bin\Debug\Eximo.dal.SqlServerLibrary.pdb
+D:\Proyectos Pablo\Rodial\ParteDiario\Codigo Fuente\Rodial\Eximo.Log\bin\Debug\Rodial.Services.pdb
+D:\Proyectos Pablo\Rodial\ParteDiario\Codigo Fuente\Rodial\Eximo.Log\obj\Debug\ResolveAssemblyReference.cache
+D:\Proyectos Pablo\Rodial\ParteDiario\Codigo Fuente\Rodial\Eximo.Log\obj\Debug\Eximo.Log.dll
+D:\Proyectos Pablo\Rodial\ParteDiario\Codigo Fuente\Rodial\Eximo.Log\obj\Debug\Eximo.Log.pdb
+C:\Users\Pablin\Desktop\Rodial\Eximo.Log\bin\Debug\Eximo.Log.dll
+C:\Users\Pablin\Desktop\Rodial\Eximo.Log\bin\Debug\Eximo.Log.pdb
+C:\Users\Pablin\Desktop\Rodial\Eximo.Log\bin\Debug\Eximo.dal.SqlServerLibrary.dll
+C:\Users\Pablin\Desktop\Rodial\Eximo.Log\bin\Debug\Eximo.dal.SqlServerLibrary.pdb
+C:\Users\Pablin\Desktop\Rodial\Eximo.Log\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Pablin\Desktop\Rodial\Eximo.Log\obj\Debug\Eximo.Log.dll
+C:\Users\Pablin\Desktop\Rodial\Eximo.Log\obj\Debug\Eximo.Log.pdb
+D:\Proyectos\Rodial\Eximo.Log\bin\Debug\Eximo.Log.dll
+D:\Proyectos\Rodial\Eximo.Log\bin\Debug\Eximo.Log.pdb
+D:\Proyectos\Rodial\Eximo.Log\bin\Debug\Eximo.dal.SqlServerLibrary.dll
+D:\Proyectos\Rodial\Eximo.Log\bin\Debug\Eximo.dal.SqlServerLibrary.pdb
+D:\Proyectos\Rodial\Eximo.Log\obj\Debug\ResolveAssemblyReference.cache
+D:\Proyectos\Rodial\Eximo.Log\obj\Debug\Eximo.Log.dll
+D:\Proyectos\Rodial\Eximo.Log\obj\Debug\Eximo.Log.pdb

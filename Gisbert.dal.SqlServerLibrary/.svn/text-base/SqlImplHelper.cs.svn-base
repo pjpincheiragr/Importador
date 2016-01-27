@@ -1,0 +1,260 @@
+using System;
+using System.Configuration;
+using System.Data;
+using System.Data.SqlClient;
+using System.Globalization;
+using Rodial.Services;
+
+
+namespace Eximo.dal.SqlServerLibrary
+{
+    public class SqlImplHelper
+    {
+        private static string _connectionString = null;
+        private static string _connectionIQuality = null;
+        private static string _connectionIActivos = null;
+        private static SqlTransaction _transaction = null;
+        private static SqlConnection _connection = null;
+
+        public static string getConnectionString()
+        {
+            if (_connectionString == null)
+            {
+                _connectionString = PAB.Utils.Encryption.DeHex(ConfigurationManager.ConnectionStrings["CadenaConexion"].ConnectionString);
+            }
+
+            return _connectionString;
+        }
+
+        public static string getConexionIquality()
+        {
+            if (_connectionIQuality == null)
+            {
+                _connectionIQuality = PAB.Utils.Encryption.DeHex(ConfigurationManager.ConnectionStrings["ConexionIquality"].ConnectionString);
+            }
+
+            return _connectionIQuality;
+        }
+
+        public static string getConexionIActivos()
+        {
+            if (_connectionIActivos == null)
+            {
+                _connectionIActivos = PAB.Utils.Encryption.DeHex(ConfigurationManager.ConnectionStrings["ConexionIActivos"].ConnectionString);
+            }
+
+            return _connectionIActivos;
+        }
+
+        public static SqlTransaction getTransaction()
+        {
+            try
+            {               
+                if (_transaction == null)
+                {
+                    _connection = new SqlConnection(getConnectionString());
+                    _connection.Open();
+                    _transaction = _connection.BeginTransaction(IsolationLevel.ReadCommitted);
+                }
+                
+                return _transaction;
+
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public static void commitTransaction()
+        {
+            try
+            {
+                if (_transaction != null)
+                {
+                    _transaction.Commit();
+                    _connection.Close();
+                    _connection = null;
+                    _transaction = null;
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public static void rollbackTransaction()
+        {
+            try
+            {
+                if (_transaction != null)
+                {
+                    _transaction.Rollback();
+                    _connection.Close();
+                    _connection = null;
+                    _transaction = null;
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        /*public static OracleTransaction getTransaction() 
+        {
+            try
+            {
+                OracleTransaction _transaction;
+
+                OracleConnection _connection = new OracleConnection(getConnectionString());
+                _connection.Open();
+                _transaction = _connection.BeginTransaction(IsolationLevel.ReadCommitted);
+
+                return _transaction;
+      
+            } catch(Exception ex) {
+                throw ex;
+            }            
+        }*/
+
+        #region Datarows GettersRows
+
+        public static bool getBoolValue(object drValue, string valueToCompare)
+        {
+            if (Convert.IsDBNull(drValue))
+            {
+                return false;
+            }
+            else
+            {
+                return drValue.ToString().Trim().Equals(valueToCompare) ? true : false;
+            }
+        }
+
+        public static DateTime getDateTimeValue(object drValue)
+        {
+            return Convert.IsDBNull(drValue) ? DateTime.MinValue : Convert.ToDateTime(drValue.ToString(), new CultureInfo("es-AR"));
+        }
+
+        public static DateTime? getMinValueIfNull(object drValue)
+        {
+            if (Convert.IsDBNull(drValue) || drValue.ToString().Length == 0)
+                return null;
+            else 
+                return Convert.ToDateTime(drValue.ToString(), new CultureInfo("es-AR"));
+        }
+
+        public static int getIntValue(object drValue)
+        {
+            if (Convert.IsDBNull(drValue) || drValue.ToString().Trim().Length == 0)
+            {
+                return 0;
+            }
+
+            return Convert.ToInt32(drValue.ToString().Trim());
+        }
+
+        public static long getLongValue(object drValue)
+        {
+            if (Convert.IsDBNull(drValue) || drValue.ToString().Trim().Length == 0)
+            {
+                return 0;
+            }
+
+            return Convert.ToInt64(drValue.ToString().Trim());
+        }
+
+        public static double getDoubleValue(object drValue)
+        {
+            if (Convert.IsDBNull(drValue) || drValue.ToString().Trim().Length == 0)
+            {
+                return 0;
+            }
+
+            return Convert.ToDouble(drValue.ToString().Trim());
+        }
+
+        public static string getStringValue(object drValue)
+        {
+            return Convert.IsDBNull(drValue) ? "" : drValue.ToString().Trim();
+        }
+
+
+
+        #endregion
+
+        #region GettersNull
+
+        public static object getNullIfEmpty(string sValue)
+        {
+            if (sValue == null || sValue.Trim().Length == 0)
+            {
+                return null;
+            }
+
+            return sValue;
+        }
+
+        public static object getNullIfNegative(int iValue)
+        {
+            if (iValue <= 0)
+            {
+                return null;
+            }
+
+            return iValue;
+        }
+
+        public static object getNullIfNegative(long iValue)
+        {
+            if (iValue <= 0)
+            {
+                return null;
+            }
+
+            return iValue;
+        }
+
+
+        public static object getNullIfDateMinValue(DateTime? dtValue)
+        {
+            if (dtValue == DateTime.MinValue)
+            {
+                return null;
+            }
+
+            return dtValue;
+        }
+
+        public static string getSifTrue(bool bValue)
+        {
+            return bValue == true ? "S" : "N";
+        }
+
+        public static object getNullIfCero(string value)
+        {
+            return value == "0" ? null : value;
+        }
+
+        #endregion
+
+        public static string getDefault(string sClave)
+        {
+            try
+            {
+                string spCommandText = "SELECT mpls_neg_pkg.Busca_valor_default('" + sClave + "') FROM dual";
+
+                SqlParameter[] oParams = { };
+
+                return SqlServerLibrary.SqlHelper.ExecuteScalar(getConnectionString(), CommandType.Text, spCommandText, oParams).ToString();
+                
+            }
+            catch (System.Exception ex)
+            { throw new SqlImplException("Error in getDefault", ex); }
+        }
+
+    }
+
+}

@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E91F349E-3B60-4D71-A0B0-89235D76E823}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Rodial.SqlServerImpl</RootNamespace>
+    <AssemblyName>Rodial.SqlServerImpl</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AreasImpl.cs" />
+    <Compile Include="AUD_LOGImpl.cs" />
+    <Compile Include="CertificadosImpl.cs" />
+    <Compile Include="CertificadosTarifasImpl.cs" />
+    <Compile Include="CertificadosTotalesImpl.cs" />
+    <Compile Include="ClientesImpl.cs" />
+    <Compile Include="ContratoAnexoImpl.cs" />
+    <Compile Include="ContratoAnexoTarifaImpl.cs" />
+    <Compile Include="ContratosImpl.cs" />
+    <Compile Include="EquiposImpl.cs" />
+    <Compile Include="FeriadosImpl.cs" />
+    <Compile Include="FluidosImpl.cs" />
+    <Compile Include="ModulosImpl.cs" />
+    <Compile Include="OperacionTipoImpl.cs" />
+    <Compile Include="ParteDetalleFluidosImpl.cs" />
+    <Compile Include="ParteDetalleImpl.cs" />
+    <Compile Include="ParteImpl.cs" />
+    <Compile Include="PerfilesImpl.cs" />
+    <Compile Include="PersonalImpl.cs" />
+    <Compile Include="PersonalTiposImpl.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TareasImpl.cs" />
+    <Compile Include="UnidadesImpl.cs" />
+    <Compile Include="UsuariosImpl.cs" />
+    <Compile Include="VehiculosImpl.cs" />
+    <Compile Include="VehiculosTiposImpl.cs" />
+    <Compile Include="YacimientosImpl.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Eximo.dal.SqlServerLibrary\Eximo.dal.SqlServerLibrary.csproj">
+      <Project>{0D65EFC9-9C86-4472-ADD6-6BB34A542888}</Project>
+      <Name>Eximo.dal.SqlServerLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Rodial.Model\Rodial.Model.csproj">
+      <Project>{904A8508-7D83-4AFD-BB65-8490223326F7}</Project>
+      <Name>Rodial.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

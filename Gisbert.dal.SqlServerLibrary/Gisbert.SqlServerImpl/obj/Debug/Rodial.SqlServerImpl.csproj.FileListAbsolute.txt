@@ -1,0 +1,30 @@
+D:\Proyectos Pablo\Rodial\ParteDiario\Codigo Fuente\Rodial\Rodial.SqlServerImpl\bin\Debug\Rodial.SqlServerImpl.dll
+D:\Proyectos Pablo\Rodial\ParteDiario\Codigo Fuente\Rodial\Rodial.SqlServerImpl\bin\Debug\Rodial.SqlServerImpl.pdb
+D:\Proyectos Pablo\Rodial\ParteDiario\Codigo Fuente\Rodial\Rodial.SqlServerImpl\bin\Debug\Eximo.dal.SqlServerLibrary.dll
+D:\Proyectos Pablo\Rodial\ParteDiario\Codigo Fuente\Rodial\Rodial.SqlServerImpl\bin\Debug\Rodial.Model.dll
+D:\Proyectos Pablo\Rodial\ParteDiario\Codigo Fuente\Rodial\Rodial.SqlServerImpl\bin\Debug\NPOI.dll
+D:\Proyectos Pablo\Rodial\ParteDiario\Codigo Fuente\Rodial\Rodial.SqlServerImpl\bin\Debug\Rodial.Services.dll
+D:\Proyectos Pablo\Rodial\ParteDiario\Codigo Fuente\Rodial\Rodial.SqlServerImpl\bin\Debug\Eximo.dal.SqlServerLibrary.pdb
+D:\Proyectos Pablo\Rodial\ParteDiario\Codigo Fuente\Rodial\Rodial.SqlServerImpl\bin\Debug\Rodial.Model.pdb
+D:\Proyectos Pablo\Rodial\ParteDiario\Codigo Fuente\Rodial\Rodial.SqlServerImpl\bin\Debug\Rodial.Services.pdb
+D:\Proyectos Pablo\Rodial\ParteDiario\Codigo Fuente\Rodial\Rodial.SqlServerImpl\obj\Debug\ResolveAssemblyReference.cache
+D:\Proyectos Pablo\Rodial\ParteDiario\Codigo Fuente\Rodial\Rodial.SqlServerImpl\obj\Debug\Rodial.SqlServerImpl.dll
+D:\Proyectos Pablo\Rodial\ParteDiario\Codigo Fuente\Rodial\Rodial.SqlServerImpl\obj\Debug\Rodial.SqlServerImpl.pdb
+C:\Users\Pablin\Desktop\Rodial\Rodial.SqlServerImpl\bin\Debug\Rodial.SqlServerImpl.dll
+C:\Users\Pablin\Desktop\Rodial\Rodial.SqlServerImpl\bin\Debug\Rodial.SqlServerImpl.pdb
+C:\Users\Pablin\Desktop\Rodial\Rodial.SqlServerImpl\bin\Debug\Eximo.dal.SqlServerLibrary.dll
+C:\Users\Pablin\Desktop\Rodial\Rodial.SqlServerImpl\bin\Debug\Rodial.Model.dll
+C:\Users\Pablin\Desktop\Rodial\Rodial.SqlServerImpl\bin\Debug\Eximo.dal.SqlServerLibrary.pdb
+C:\Users\Pablin\Desktop\Rodial\Rodial.SqlServerImpl\bin\Debug\Rodial.Model.pdb
+C:\Users\Pablin\Desktop\Rodial\Rodial.SqlServerImpl\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Pablin\Desktop\Rodial\Rodial.SqlServerImpl\obj\Debug\Rodial.SqlServerImpl.dll
+C:\Users\Pablin\Desktop\Rodial\Rodial.SqlServerImpl\obj\Debug\Rodial.SqlServerImpl.pdb
+D:\Proyectos\Rodial\Rodial.SqlServerImpl\bin\Debug\Rodial.SqlServerImpl.dll
+D:\Proyectos\Rodial\Rodial.SqlServerImpl\bin\Debug\Rodial.SqlServerImpl.pdb
+D:\Proyectos\Rodial\Rodial.SqlServerImpl\bin\Debug\Eximo.dal.SqlServerLibrary.dll
+D:\Proyectos\Rodial\Rodial.SqlServerImpl\bin\Debug\Rodial.Model.dll
+D:\Proyectos\Rodial\Rodial.SqlServerImpl\bin\Debug\Eximo.dal.SqlServerLibrary.pdb
+D:\Proyectos\Rodial\Rodial.SqlServerImpl\bin\Debug\Rodial.Model.pdb
+D:\Proyectos\Rodial\Rodial.SqlServerImpl\obj\Debug\ResolveAssemblyReference.cache
+D:\Proyectos\Rodial\Rodial.SqlServerImpl\obj\Debug\Rodial.SqlServerImpl.dll
+D:\Proyectos\Rodial\Rodial.SqlServerImpl\obj\Debug\Rodial.SqlServerImpl.pdb

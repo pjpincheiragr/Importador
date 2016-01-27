@@ -1,0 +1,24 @@
+D:\Proyectos Pablo\Rodial\ParteDiario\Codigo Fuente\Rodial\Eximo.dal.SqlServerLibrary\bin\Debug\Eximo.dal.SqlServerLibrary.dll
+D:\Proyectos Pablo\Rodial\ParteDiario\Codigo Fuente\Rodial\Eximo.dal.SqlServerLibrary\bin\Debug\Eximo.dal.SqlServerLibrary.pdb
+D:\Proyectos Pablo\Rodial\ParteDiario\Codigo Fuente\Rodial\Eximo.dal.SqlServerLibrary\bin\Debug\Rodial.Services.dll
+D:\Proyectos Pablo\Rodial\ParteDiario\Codigo Fuente\Rodial\Eximo.dal.SqlServerLibrary\bin\Debug\NPOI.dll
+D:\Proyectos Pablo\Rodial\ParteDiario\Codigo Fuente\Rodial\Eximo.dal.SqlServerLibrary\bin\Debug\Rodial.Services.pdb
+D:\Proyectos Pablo\Rodial\ParteDiario\Codigo Fuente\Rodial\Eximo.dal.SqlServerLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\Proyectos Pablo\Rodial\ParteDiario\Codigo Fuente\Rodial\Eximo.dal.SqlServerLibrary\obj\Debug\Eximo.dal.SqlServerLibrary.dll
+D:\Proyectos Pablo\Rodial\ParteDiario\Codigo Fuente\Rodial\Eximo.dal.SqlServerLibrary\obj\Debug\Eximo.dal.SqlServerLibrary.pdb
+C:\Users\Pablin\Desktop\Rodial\Eximo.dal.SqlServerLibrary\bin\Debug\Eximo.dal.SqlServerLibrary.dll
+C:\Users\Pablin\Desktop\Rodial\Eximo.dal.SqlServerLibrary\bin\Debug\Eximo.dal.SqlServerLibrary.pdb
+C:\Users\Pablin\Desktop\Rodial\Eximo.dal.SqlServerLibrary\bin\Debug\Rodial.Services.dll
+C:\Users\Pablin\Desktop\Rodial\Eximo.dal.SqlServerLibrary\bin\Debug\NPOI.dll
+C:\Users\Pablin\Desktop\Rodial\Eximo.dal.SqlServerLibrary\bin\Debug\Rodial.Services.pdb
+C:\Users\Pablin\Desktop\Rodial\Eximo.dal.SqlServerLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Pablin\Desktop\Rodial\Eximo.dal.SqlServerLibrary\obj\Debug\Eximo.dal.SqlServerLibrary.dll
+C:\Users\Pablin\Desktop\Rodial\Eximo.dal.SqlServerLibrary\obj\Debug\Eximo.dal.SqlServerLibrary.pdb
+D:\Proyectos\Rodial\Eximo.dal.SqlServerLibrary\bin\Debug\Eximo.dal.SqlServerLibrary.dll
+D:\Proyectos\Rodial\Eximo.dal.SqlServerLibrary\bin\Debug\Eximo.dal.SqlServerLibrary.pdb
+D:\Proyectos\Rodial\Eximo.dal.SqlServerLibrary\bin\Debug\Rodial.Services.dll
+D:\Proyectos\Rodial\Eximo.dal.SqlServerLibrary\bin\Debug\NPOI.dll
+D:\Proyectos\Rodial\Eximo.dal.SqlServerLibrary\bin\Debug\Rodial.Services.pdb
+D:\Proyectos\Rodial\Eximo.dal.SqlServerLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\Proyectos\Rodial\Eximo.dal.SqlServerLibrary\obj\Debug\Eximo.dal.SqlServerLibrary.dll
+D:\Proyectos\Rodial\Eximo.dal.SqlServerLibrary\obj\Debug\Eximo.dal.SqlServerLibrary.pdb
